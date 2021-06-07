@@ -17,9 +17,9 @@ class Billete {
 }
 
 let cajero = []
-cajero.push(new Billete(50,5))
-cajero.push(new Billete(20,0))
-cajero.push(new Billete(10,0))
+cajero.push(new Billete(50,50))
+cajero.push(new Billete(20,40))
+cajero.push(new Billete(10,30))
 
 let dineroTotal = calcularDineroTotal()
 
